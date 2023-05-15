@@ -1,5 +1,5 @@
 // ******* generate element ******* //
-var generateBtn = document.querySelector("#generate");
+const generateBtn = document.querySelector("#generate");
 
 // ******* variables ******* //
 var generatePassword = "";
@@ -52,7 +52,15 @@ const number = confirm("Include numbers? ");
     // console.log(generatePassword);
   }
 
- 
+  function finalSelect() {
+    var randomSelect =
+      generatePassword[Math.floor(Math.random() * generatePassword.length)];
+    return randomSelect;
+  }
+
+  for (var i = 1; i <= PasswordLength; i++) {
+    generateOutput += finalSelect();
+  }
 
 
 // ******* prompts generated password finished ******* //
@@ -64,11 +72,10 @@ return generateOutput;
 }
 
 
-
 //  ******* generate button ******* //
-generateBtn.addEventListener("click", function (){
-var password = generatePassword();
-var passwordText = document.querySelector("#password");
+generateBtn.addEventListener("click", function () {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
 
-passwordText.value = password;
-}};
+  passwordText.value = password;
+});
