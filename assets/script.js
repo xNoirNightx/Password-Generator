@@ -4,8 +4,8 @@ var generateBtn = document.querySelector("#generate");
 // ******* variables ******* //
 var generatePassword = "";
 var generateOutput = "";
-const upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
+const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const lowerCase = "abcdefghijklmnopqrstuvwxyz";
 const specialChars = "{[!@#$%^&*()_+=-~`<>?/]}";
 const numbers = "0987654321";
 
@@ -31,8 +31,16 @@ function generatePassword() {
 }
 
 // ******* prompts for variables ******* //
-
-
+const uppercase = confirm("Include Uppercase Letters? ");
+  if (uppercase === true) {
+    generatePassword += upperCase;
+    // console.log(generatePassword);
+  }
+const lowercase = confirm("Include lowercase letters? ");
+  if (lowercase === true) {
+    generatePassword += lowerCase;
+    // console.log(generatedPassword);
+  }
 
 
 
@@ -41,15 +49,18 @@ function generatePassword() {
 
 // ******* prompts generated password finished ******* //
 
-
-
-
-
+if (generatePassword.length === 0) {
+  return "Sorry, Please selecte types of charcters.";
+}
+return generateOutput;
 }
 
+
+
 //  ******* generate button ******* //
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", function (){
 var password = generatePassword();
 var passwordText = document.querySelector("#password");
 
 passwordText.value = password;
+}};
