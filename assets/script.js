@@ -1,7 +1,7 @@
-// generate element
+// ******* generate element ******* //
 var generateBtn = document.querySelector("#generate");
 
-// variables
+// ******* variables ******* //
 var generatePassword = "";
 var generateOutput = "";
 const upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -11,20 +11,35 @@ const numbers = "0987654321";
 
 
 
-// code to start 
+// *******code to start , password length , error message min not met ******* //
 function generatePassword() {
- var generatePassword = "";
- var generateOutput = "";
+ generatePassword = "";
+ generateOutput = "";
+ var PasswordLength = parseInt(
+ prompt("Password length? (Between 8 - 128) ") );
+ //console.log(PasswordLength);
+ //console.log (typeof PasswordLength);
+
+ while (
+  PasswordLength < 8 ||
+  PasswordLength > 128 ||
+  isNaN(PasswordLength) ) {
+  lengthOfPassword = parseInt(
+    prompt( "Sorry , Password Length must be (Between 8 - 128)"));
+  // console.log(PasswordLength);
+  // console.log(typeof PasswordLength);
+}
+
+// ******* prompts for variables ******* //
 
 
 
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
 
 
+ 
 
+
+// ******* prompts generated password finished ******* //
 
 
 
@@ -32,5 +47,9 @@ function generatePassword() {
 
 }
 
-// Add event listener to generate button
+//  ******* generate button ******* //
 generateBtn.addEventListener("click", writePassword);
+var password = generatePassword();
+var passwordText = document.querySelector("#password");
+
+passwordText.value = password;
