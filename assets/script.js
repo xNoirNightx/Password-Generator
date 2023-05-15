@@ -16,7 +16,7 @@ function GPassword() {
  generatePassword = "";
  generateOutput = "";
  let PasswordLength = parseInt(
- prompt("How long would you like your Password.? (Between 8 - 128) ") );
+ prompt("How long would you like your Password.? (Between 8 - 128) "));
  //console.log(PasswordLength);
  //console.log (typeof PasswordLength);
 
@@ -31,7 +31,7 @@ function GPassword() {
 }
 
 // ******* prompts for variables *repeat for all 4 options******* //
-const uppercase = confirm("Include Uppercase Letters? (Ok=Yes Cancel=No) ");
+const uppercase = confirm("Include Uppercase Letters? (Ok=Yes Cancel=No)");
   if (uppercase === true) {
     generatePassword += upperCase;
     // console.log(generatePassword);

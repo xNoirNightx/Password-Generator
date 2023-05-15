@@ -1,4 +1,4 @@
-# 03 JavaScript: Password Generator ( Challenge 3)
+JavaScript: Password Generator ( Challenge 3)
 
 ## Description
 
@@ -50,7 +50,7 @@ The following image shows the web application after I edited the code.
 ![Corals Password Generator](./assets/images/coralsdesign.png)
 
 ## Credits
-
+- https://www.youtube.com/watch?v=XH7CzSZ-9gY
 - https://www.youtube.com/watch?v=x4HUaiazDes
 - https://www.w3schools.com/
 - https://scrollrevealjs.org/
