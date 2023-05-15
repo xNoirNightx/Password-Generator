@@ -41,6 +41,7 @@ I followed the criteria below provided by the class instructors.
 ## Mock-Up
 
 The following image shows the web application after I edited the code.
+
 **Note**: This image is a screen shot once i finished the assisnment , styled by defaulted code.
 
 ![Basic Password Generator](./assets/images/undesignedscreenshot.png)
