@@ -45,9 +45,9 @@ The following image shows the web application after I edited the code.
 
 ![Basic Password Generator](./assets/images/undesignedscreenshot.png)
 
-> **Note**: This image is a screen shot once after adjusting the css to add my touch  (hope thats ok).
+**Note**: This image is a screen shot after adjusting the css to add my touch  (hope thats ok).
 
-![Corals Password Generator](./assets/images/undesignedscreenshot.png)
+![Corals Password Generator](./assets/images/coralsdesign.png)
 
 ## Credits
 
@@ -55,11 +55,10 @@ The following image shows the web application after I edited the code.
 - https://www.w3schools.com/
 - https://scrollrevealjs.org/
 
-**Note**: I am struggling with JavaScript , this assignment took me 5 days and alot of help from W3school and Youtube to
-even get close to this outcome.....following along and typing things out is the only reason I understand whats going on.
+**Note**: I am struggling with JavaScript , this assignment took me 5 days and alot of help from W3school and Youtube to even get close to this outcome.....following along and typing things out is the only reason I understand whats going on.
 
 
-> **Note**: User story and acceptance criteria was provided to me in class
+**Note**: User story and acceptance criteria was provided to me in class
  UNB-VIRT-FSF-PT-04-2023-U-LOLC for Week 3 Challenge. 
 
 ## My Github
