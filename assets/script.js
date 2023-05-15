@@ -31,22 +31,22 @@ function GPassword() {
 }
 
 // ******* prompts for variables *repeat for all 4 options******* //
-const uppercase = confirm("Include Uppercase Letters? ");
+const uppercase = confirm("Include Uppercase Letters? (Ok=Yes Cancel=No) ");
   if (uppercase === true) {
     generatePassword += upperCase;
     // console.log(generatePassword);
   }
-const lowercase = confirm("Include lowercase letters? ");
+const lowercase = confirm("Include lowercase letters? (Ok=Yes Cancel=No)");
   if (lowercase === true) {
     generatePassword += lowerCase;
     // console.log(generatePassword);
   }
-const special = confirm("Include special characters? ");
+const special = confirm("Include special characters? (Ok=Yes Cancel=No)");
   if (special === true) {
     generatePassword += specialChars;
     // console.log(generatePassword);
   }
-const number = confirm("Include numbers? ");
+const number = confirm("Include numbers? (Ok=Yes Cancel=No)");
   if (number === true) {
     generatePassword += numbers;
     // console.log(generatePassword);
@@ -73,6 +73,5 @@ return generateOutput;
 generateBtn.addEventListener("click", function () {
   let password = GPassword();
   let passwordText = document.querySelector("#password");
-
   passwordText.value = password;
 });

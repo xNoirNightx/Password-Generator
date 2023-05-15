@@ -1,100 +1,71 @@
-# 03 JavaScript: Password Generator
+# 03 JavaScript: Password Generator ( Challenge 3)
 
-## Your Task
+## Description
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+I was tasked with my thrid challenge to make a Password Generator.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+- I used W3school and youtube to assist me on completing this challenge.
+- I was able to problem solve and fix code.
+- I learned how to fix typeErrors (ended up changing out var to let as it caused errors).
+- I made the css look nicer than default 
+
+I followed the criteria below provided by the class instructors.
 
 ## User Story
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+- AS AN employee with access to sensitive data
+- I WANT to randomly generate a password that meets certain criteria
+- SO THAT I can create a strong password that provides greater security
+
 
 ## Acceptance Criteria
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+- GIVEN I need a new, secure password
+- WHEN I click the button to generate a password
+- THEN I am presented with a series of prompts for password criteria
+- WHEN prompted for password criteria
+- THEN I select which criteria to include in the password
+- WHEN prompted for the length of the password
+- THEN I choose a length of at least 8 characters and no more than 128 characters
+- WHEN asked for character types to include in the password
+- THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+- WHEN I answer each prompt
+- THEN my input should be validated and at least one character type should be selected
+- WHEN all prompts are answered
+- THEN a password is generated that matches the selected criteria
+- WHEN the password is generated
+- THEN the password is either displayed in an alert or written to the page
+
+ **Note**: I hope its ok I changed the look of the generator its pretty bland hahah. I will include a before and after picture so you can see the style changes after the last push.
 
 ## Mock-Up
 
-The following image shows the web application's appearance and functionality:
+The following image shows the web application after I edited the code.
+**Note**: This image is a screen shot once i finished the assisnment , styled by defaulted code.
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+![Basic Password Generator](./assets/images/undesignedscreenshot.png)
 
-## Grading Requirements
+> **Note**: This image is a screen shot once after adjusting the css to add my touch  (hope thats ok).
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+![Corals Password Generator](./assets/images/undesignedscreenshot.png)
 
-This Challenge is graded based on the following criteria: 
+## Credits
 
-### Technical Acceptance Criteria: 40%
+- https://www.youtube.com/watch?v=x4HUaiazDes
+- https://www.w3schools.com/
+- https://scrollrevealjs.org/
 
-* Satisfies all of the preceding acceptance criteria.
+**Note**: I am struggling with JavaScript , this assignment took me 5 days and alot of help from W3school and Youtube to
+even get close to this outcome.....following along and typing things out is the only reason I understand whats going on.
 
-### Deployment: 32%
 
-* Application deployed at live URL.
+> **Note**: User story and acceptance criteria was provided to me in class
+ UNB-VIRT-FSF-PT-04-2023-U-LOLC for Week 3 Challenge. 
 
-* Application loads with no errors.
+## My Github
 
-* Application GitHub URL submitted.
+- https://github.com/xNoirNightx/Password-Generator
 
-* GitHub repository that contains application code.
+## License
 
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+N/A
