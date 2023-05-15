@@ -30,7 +30,7 @@ function generatePassword() {
   // console.log(typeof PasswordLength);
 }
 
-// ******* prompts for variables ******* //
+// ******* prompts for variables *repeat for all 4 options******* //
 const uppercase = confirm("Include Uppercase Letters? ");
   if (uppercase === true) {
     generatePassword += upperCase;
@@ -39,10 +39,18 @@ const uppercase = confirm("Include Uppercase Letters? ");
 const lowercase = confirm("Include lowercase letters? ");
   if (lowercase === true) {
     generatePassword += lowerCase;
-    // console.log(generatedPassword);
+    // console.log(generatePassword);
   }
-
-
+const special = confirm("Include special characters? ");
+  if (special === true) {
+    generatePassword += specialChars;
+    // console.log(generatePassword);
+  }
+const number = confirm("Include numbers? ");
+  if (number === true) {
+    generatedPassword += numbers;
+    // console.log(generatePassword);
+  }
 
  
 
